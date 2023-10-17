@@ -22,6 +22,13 @@
         </div>
 
     </div>
+
+    <div id="menu">
+        <ul>
+            <li><a href="#info">Home</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </div>
     
     <div id="info">
        
@@ -52,16 +59,44 @@
         </div>
 
     </div>
-    <form action="">
+
+    <div id="imagens">
+
+        <div class="repositorio-img">
+            <img  width="200px"  src="img/IMG_3817 - Copia.JPG">
+        </div>
+        <div class="repositorio-img">
+            <img  width="200px" src="img/IMG_3879 - Copia.JPG">
+        </div>
+        <div class="repositorio-img">
+            <img  width="200px"  src="img/IMG_3914 - Copia.JPG">
+        </div>
+        <div class="repositorio-img">
+            <img  width="200px" src="img/img0912.jpeg">
+        </div>
+        <div class="repositorio-img">
+            <img  width="100px" src="">
+        </div>
+        <div class="repositorio-img">
+            <img  width="100px" src="">
+        </div>
+
+
+    </div>
+
+
+    <div id="contact">
+    <form  action="https://formsubmit.co/marketing@cortezibiapina.com.br" method="POST" class="form">
         <h2>Entre em Contato</h2>
         <P>
-         <input type="text" name="name" id="name" placeholder="Seu Nome"><br>
-         <input type="number" name="number" id="number" placeholder="(00) 0000-0000"><br>
-         <input type="email" name="email" id="email" placeholder="seuemail@email.com"><br>
-
-            <button type="submit">Enviar</button>
+         <input type="text" name="name" id="name" placeholder="Seu Nome" required><br>
+         <input type="number" name="number" id="number" placeholder="(00) 0000-0000" required><br>
+         <input type="email" name="email" id="email" placeholder="seuemail@email.com" required><br>
+         <input type="hidden" name="_next" value="https://wa.me/5585999402858"/>
+         <button type="submit">Enviar</button>
         </P>
     </form>
+    </div>
    
     
 </body>
