@@ -171,19 +171,24 @@ a{
 }
 #imagens{
     position: relative;
-    display: flex;
+    display: grid;
     
 }
 .repositorio-img img{
-    background-size: cover;
-    
+   max-width: 100%;
+   width: 350px;
+   height: 350px;
+   object-fit: cover;
+   margin: 20px;
+   
 }
 .repositorio-img{
-    width: 200px;
-    height: 200px;
+    align-items: center;
     background-size: cover;
     margin: 20px;
-    height: 200px;
+    justify-content: center;
+    margin: 0 auto ;
+    
     
 }
 @media only screen and (max-width: 800px){
