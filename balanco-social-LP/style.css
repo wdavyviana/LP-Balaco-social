@@ -176,8 +176,8 @@ a{
 }
 .repositorio-img img{
    max-width: 100%;
-   width: 350px;
-   height: 350px;
+   width: 330px;
+   height: 330px;
    object-fit: cover;
    margin: 20px;
    
@@ -188,6 +188,7 @@ a{
     margin: 20px;
     justify-content: center;
     margin: 0 auto ;
+    text-align: center;
     
     
 }
@@ -220,6 +221,11 @@ a{
     }
     #menu{
         margin-left: 40px;
+    }
+    .repositorio-img img{
+        width: 270px;
+        height: 270px;
+        
     }
 }
   
