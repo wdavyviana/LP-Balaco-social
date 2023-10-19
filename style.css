@@ -207,6 +207,38 @@ footer img{
 .branco{
     filter: invert();
 }
+#botao{
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+#botao a {
+    width: 150px;
+    background-color:#e46cff ;
+    border:none;
+    color: #ffff;
+    border-radius: 10px;
+    font-size: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    
+              
+    
+}
+#botao a :hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
 @media only screen and (max-width: 800px){
     #info{
         padding: 40px;
@@ -249,5 +281,7 @@ footer img{
         width: 75px;
         
     }
+    
+
 }
   
