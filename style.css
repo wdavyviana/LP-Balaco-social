@@ -207,12 +207,12 @@ footer img{
 .branco{
     filter: invert();
 }
-#botao{
+.botao{
     text-align: center;
     margin-bottom: 40px;
     position: relative;
 }
-#botao a {
+.botao a {
     width: 150px;
     background-color:#e46cff ;
     border:none;
@@ -234,10 +234,13 @@ footer img{
               
     
 }
-#botao a :hover {
+.botao a :hover {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+}
+#hidden{
+    display: none;
 }
 @media only screen and (max-width: 800px){
     #info{
@@ -280,6 +283,9 @@ footer img{
     footer #logo{
         width: 75px;
         
+    }
+    #hidden{
+        display: block;
     }
     
 
