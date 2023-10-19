@@ -192,6 +192,21 @@ a{
     
     
 }
+footer{
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    
+}
+footer img{
+    margin: 0 auto;
+}
+.branco{
+    filter: invert();
+}
 @media only screen and (max-width: 800px){
     #info{
         padding: 40px;
@@ -225,6 +240,13 @@ a{
     .repositorio-img img{
         width: 270px;
         height: 270px;
+        
+    }
+    footer p{
+        font-size: 14px;
+    }
+    footer #logo{
+        width: 75px;
         
     }
 }
