@@ -180,7 +180,8 @@ a{
    height: 330px;
    object-fit: cover;
    margin: 20px;
-   
+   position: relative;
+   animation: mymove 1.4s ease;
 }
 .repositorio-img{
     align-items: center;
@@ -189,7 +190,6 @@ a{
     justify-content: center;
     margin: 0 auto ;
     text-align: center;
-    
     
 }
 footer{
@@ -289,5 +289,9 @@ footer img{
     }
     
 
+}
+@keyframes mymove{
+    from {top: 0px;}
+    to {top: 50px;}
 }
   
